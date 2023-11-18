@@ -1,6 +1,5 @@
-package com.company.testing;
+package com.java.testing;
 
-import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 

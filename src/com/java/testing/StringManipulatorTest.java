@@ -1,8 +1,6 @@
-package com.company.testing;
+package com.java.testing;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
 
 class StringManipulator {
     public String concatenateStrings(String str1, String str2) {

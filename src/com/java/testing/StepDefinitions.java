@@ -1,6 +1,7 @@
+package com.java.testing;
+
 import com.java.testing.Calculator;
 
-package com.java.testing;
 
 public class StepDefinitions {
 

@@ -1,2 +1,5 @@
 1. Bubble Sort
 The bubble sort algorithm’s average/worst time complexity is O(n²), as we have to pass through the array as many times as there are pairs in a provided array. Therefore, when time is a factor, there may be better options.
+
+2. Insertion Sort
+†he worst-case (and average-case) complexity of the insertion sort algorithm is O(n²)

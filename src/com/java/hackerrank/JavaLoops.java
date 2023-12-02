@@ -10,9 +10,15 @@ public class JavaLoops {
             int a = in.nextInt();
             int b = in.nextInt();
             int n = in.nextInt();
+            int s = a;
+            for (int j = 0; j<n; j++) {
+                s += (int) (Math.pow(2, j) * b);
+                System.out.print(s + " ");
+            }
+            System.out.println();
 
         }
-        System.out.println(t);
+
 
 
     }

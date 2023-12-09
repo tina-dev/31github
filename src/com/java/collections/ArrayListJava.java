@@ -8,6 +8,7 @@ public class ArrayListJava {
         numbers.add(1);
         numbers.add(5);
         numbers.add(1, 3);
+        numbers.remove(1);
 
         for(Integer num: numbers) {
             System.out.println(num);

@@ -14,6 +14,8 @@ public class MainObject {
         VehicleMain bmw = new VehicleMain(200, "White");
         System.out.println(bmw.weight);
 
-        VehicleMain lexus =
+        VehicleMain lexus = new VehicleMain("White", new int[] {20, 0, 1});
+
+        System.out.println(lexus.color);
     }
 }

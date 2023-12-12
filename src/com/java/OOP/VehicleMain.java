@@ -19,4 +19,9 @@ public class VehicleMain {
         this.color = color;
     }
 
+    public VehicleMain(String color, int [] coordinate) {
+        this.color = color;
+        this.coordinate = coordinate;
+    }
+
 }

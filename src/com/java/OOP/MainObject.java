@@ -12,6 +12,6 @@ public class MainObject {
 
         Truck truck = new Truck("White", new int[] {20, 0, 1});
 
-        System.out.println(lexus.color);
+        System.out.println(truck.color);
     }
 }

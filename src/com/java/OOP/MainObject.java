@@ -10,7 +10,10 @@ public class MainObject {
         VehicleMain bmw = new VehicleMain(200, "White");
         System.out.println(bmw.weight);
 
-        Truck truck = new Truck("White", new int[] {20, 0, 1});
+        Truck truck = new Truck("White", new int[] {20, 0, 1}, false);
+
+        truck.setLoaded(true);
+        truck.getLoaded();
 
         System.out.println(truck.color);
     }

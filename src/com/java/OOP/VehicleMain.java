@@ -2,10 +2,10 @@ package com.java.OOP;
 
 public class VehicleMain {
 
-    public float speed;
-    public int weight;
-    public String color;
-    public int[] coordinate;
+    protected float speed;
+    protected int weight;
+    protected String color;
+    protected int[] coordinate;
 
     public VehicleMain() {
     }

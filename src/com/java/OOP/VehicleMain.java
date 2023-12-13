@@ -7,6 +7,9 @@ public class VehicleMain {
     public String color;
     public int[] coordinate;
 
+    public VehicleMain() {
+    }
+
     public VehicleMain(float speed, int weight, String color, int [] coordinate) {
         this.speed = speed;
         this.weight = weight;

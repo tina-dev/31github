@@ -8,6 +8,7 @@ public class Truck extends VehicleMain{
         this.color = color;
         this.coordinate = coordinate;
     }
+
     public Truck(String color, int [] coordinate, boolean isLoaded) {
         this.color = color;
         this.coordinate = coordinate;
@@ -25,5 +26,10 @@ public class Truck extends VehicleMain{
         else {
             System.out.println("Not loaded");
         }
+    }
+
+    @Override
+    public void moveObject(float speed) {
+        System.out.println("Our object is moving with speed: " + speed);
     }
 }

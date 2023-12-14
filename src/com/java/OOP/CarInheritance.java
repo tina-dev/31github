@@ -9,5 +9,10 @@ public class CarInheritance extends VehicleMain{
         this.coordinate = coordinate;
     }
 
+    @Override
+    public void moveObject(float speed) {
+        System.out.println("Our object is moving with speed: " + speed);
+    }
+
 
 }

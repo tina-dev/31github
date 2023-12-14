@@ -1,6 +1,8 @@
 package com.java.OOP;
 
-public class VehicleMain {
+public abstract class VehicleMain {
+
+
 
     protected float speed;
     protected int weight;
@@ -26,5 +28,9 @@ public class VehicleMain {
         this.color = color;
         this.coordinate = coordinate;
     }
+
+    public abstract void moveObject(float speed);
+
+
 
 }

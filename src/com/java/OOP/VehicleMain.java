@@ -24,4 +24,21 @@ public abstract class VehicleMain {
 
     public abstract void moveObject(float speed);
 
+    class Engine {
+        private boolean isReady;
+        private int km;
+
+        public Engine(boolean isReady, int km) {
+            this.isReady = isReady;
+            this.km = km;
+        }
+
+        public void info() {
+            if(isReady)
+                System.out.println("Engine is good");
+            else
+                System.out.println("Not ready");
+        }
+    }
+
 }

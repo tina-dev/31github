@@ -2,6 +2,8 @@ package com.java.OOP;
 
 public class Truck extends VehicleMain{
 
+    public Engine engine = new Engine();
+
     private boolean isLoaded;
 
     public Truck(String color, int [] coordinate) {

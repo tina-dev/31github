@@ -28,7 +28,7 @@ public abstract class VehicleMain {
         private boolean isReady;
         private int km;
 
-        public Engine(boolean isReady, int km) {
+        public void setValues(boolean isReady, int km) {
             this.isReady = isReady;
             this.km = km;
         }

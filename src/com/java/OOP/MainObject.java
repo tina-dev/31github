@@ -9,9 +9,6 @@ public class MainObject {
 
         System.out.println("Tesla speed: " + tesla.color);
 
-        //VehicleMain bmw = new CarInheritance(200, "White");
-        //System.out.println(bmw.weight);
-
         Truck truck = new Truck("White", new int[] {20, 0, 1}, false);
         truck.engine.setValues(true, 200);
         truck.engine.info();

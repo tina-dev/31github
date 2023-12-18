@@ -13,8 +13,9 @@ public class MainObject {
         truck.engine.setValues(true, 200);
         truck.engine.info();
 
-        truck.setLoaded(true);
+        truck.setLoaded(false);
         truck.getLoaded();
+
 
         System.out.println(truck.color);
     }

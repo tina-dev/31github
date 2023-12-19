@@ -16,7 +16,6 @@ public class MainObject {
         truck.setLoaded(false);
         truck.getLoaded();
 
-
         System.out.println(truck.color);
     }
 }

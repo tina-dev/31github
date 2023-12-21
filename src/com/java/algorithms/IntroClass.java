@@ -8,6 +8,7 @@ public class IntroClass {
 
 
         public static void findNemo (String[] array) {
+        //long start = System.currentTimeMillis();
             for (int i = 0; i < array.length; i++) {
                 if (array[i].equals("nemo")) {
                     System.out.println("Found Nemo");
@@ -15,6 +16,8 @@ public class IntroClass {
                     System.out.println("not matching");
                 }
             }
+            //long finish = System.currentTimeMillis();
+            //System.out.println(finish - start);
 
         }
 

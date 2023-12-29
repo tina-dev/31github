@@ -1,5 +1,8 @@
 package com.java.algorithms;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class PairWithSum {
     public static void main(String [] args) {
         int [] nums = {2,3,4,4};
@@ -19,4 +22,6 @@ public class PairWithSum {
         }
         return false;
     }
+
+
 }

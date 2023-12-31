@@ -13,7 +13,10 @@ public class Intro {
 
         list.remove(2); //O(1)
 
-        list.add(0, "d"); //O(1)
+        list.add(0, "d"); //O(n)
+
+        System.out.println(list.get(1));
+
 
 
 

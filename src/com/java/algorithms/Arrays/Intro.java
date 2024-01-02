@@ -15,7 +15,7 @@ public class Intro {
 
         list.add(0, "d"); //O(n)
 
-        System.out.println(list.get(1));
+        System.out.println(list.get(2));
 
 
 

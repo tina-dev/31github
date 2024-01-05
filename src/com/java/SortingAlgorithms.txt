@@ -6,3 +6,6 @@ The bubble sort algorithm’s average/worst time complexity is O(n²), as we hav
 
 3. Selection Sort
 The selection sort algorithm is made up of two nested loops. It has an O (n2) time complexity due to the two nested loops.
+
+4. Merge Sort
+Merge sort is a recursive algorithm that continuously splits the array in half until it cannot be further divided i.e., the array has only one element left (an array with one element is always sorted). Then the sorted subarrays are merged into one sorted array.

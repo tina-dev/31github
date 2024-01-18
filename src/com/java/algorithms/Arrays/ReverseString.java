@@ -5,18 +5,18 @@ import java.util.ArrayList;
 public class ReverseString {
     public static void main(String[] args) {
         String name = new String("Tina is my name");
-        System.out.println(reverse2(name));
+        System.out.println(reverse(name));
 
     }
 
-    public static ArrayList<String> reverse(String arr) {
-        ArrayList<String> list = new ArrayList<>();
+    public static String reverse(String arr) {
+        String result = "";
         for (int i = arr.length()-1; i >= 0; i--) {
             char first = arr.charAt(i);
-            list.add(String.valueOf(first));
+            result += arr.charAt(i);
 
         }
-        return list;
+        return result;
     }
 
 

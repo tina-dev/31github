@@ -6,8 +6,8 @@ import java.util.List;
 public class MergeSortedArrays {
 
     public static void main(String [] args) {
-        List<Integer> numb = mergeArrays(new int [] {1,2,3}, new int [] {3,4,5});
-        System.out.println(numb);
+        List<Integer> numbers = mergeArrays(new int [] {1,2,3}, new int [] {3,4,5});
+        System.out.println(numbers);
 
     }
 

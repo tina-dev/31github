@@ -1,19 +1,25 @@
 package com.java.algorithms.HashMap;
 
-import java.sql.Array;
 import java.util.ArrayList;
 
 public class HashTableImpl {
-    ArrayList<Integer> data;
+    public ArrayList<String> name;
+    public ArrayList<Integer> prices;
+
+
+
     public HashTableImpl(int size) {
-        this.data = new ArrayList<Integer>(size);
+        this.name = new ArrayList<String>(size);
+        this.prices = new ArrayList<Integer>(size);
     }
 
-    public ArrayList<Integer> getData() {
-        return data;
+    public int getData(String fruit) {
+        int index = name.indexOf(fruit);
+        return prices.get(index);
     }
 
-    public void setData(ArrayList<Integer> data) {
-        this.data = data;
+    public void setData(String fruit, int price) {
+        name.add(fruit);
+        prices.add(price);
     }
 }

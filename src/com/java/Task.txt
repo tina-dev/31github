@@ -1,0 +1,26 @@
+[2:15 PM] Bitz, Joe
+// given a string, "encrypt" it per the following algorithm
+// 1. remove any whitespace
+// 2. map the characters of the string into a two dimensional array such that
+//    floor(sqrt(len)) <= num rows <= num columns <= ceiling(sqrt(len))
+//    ensure that rows * columns >= len, if multiple solutions choose the one with the fewest rows
+// 3. output an "encrypted" string by reading down each column and separating each encoded word by a space
+
+// Example:
+
+// input -> the quick brown fox jumps over the lazy dog
+
+// 1. thequickbrownfoxjumpsoverthelazydog
+
+// 2. length = 35
+//      5 rows, 6 columns -> 5 * 6 <  35, no good
+//      6 rows, 6 columns -> 6 * 6 >= 35, good
+
+// [t][h][e][q][u][i]
+// [c][k][b][r][o][w]
+// [n][f][o][x][j][u]
+// [m][p][s][o][v][e]
+// [r][t][h][e][l][a]
+// [z][y][d][o][g][ ]
+
+// 3. output -> tcnmrz hkfpty eboshd qrxoeo uojvlg iwuea

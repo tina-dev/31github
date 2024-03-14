@@ -3,14 +3,10 @@ package com.java.hackerrank;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-class CustomException extends Exception {
-    public CustomException(String message) {
-        super(message);
-    }
-}
 
-public class JavaExceptionHandling {
-    public static void main(String [] args) {
+
+public class JavaExceptionHandling  {
+    public static void main(String [] args) throws Exception{
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter first number: ");
@@ -26,12 +22,12 @@ public class JavaExceptionHandling {
 
             int power = (int) Math.pow(n, p);
 
-            if(n == 0  || p == 0) {
-                throw new CustomException("java.lang.Exception: n and p should not be zero.\n");
+            if(n == 0  && p == 0) {
+                throw new Exception("java.lang.Exception: n and p should not be zero.\n");
 
             }
              else if(n < 0 || p < 0) {
-                throw new CustomException("java.lang.Exception: n or p should not be negative.\n");
+                throw new Exception("java.lang.Exception: n or p should not be negative.\n");
             }
 
 
@@ -40,7 +36,7 @@ public class JavaExceptionHandling {
 
         }
 
-        catch (CustomException e) {
+        catch (Exception e) {
             System.out.println(e.getMessage());
 
 

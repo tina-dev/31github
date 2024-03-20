@@ -7,9 +7,6 @@ public class InsertionSortJava {
         InsertionSortJava ob = new InsertionSortJava();
         ob.sort(arr);
         printArray(arr);
-
-
-
     }
 
     static void printArray(int arr []) {

@@ -1,11 +1,33 @@
 1. Bubble Sort
-The bubble sort algorithm’s average/worst time complexity is O(n²), as we have to pass through the array as many times as there are pairs in a provided array. Therefore, when time is a factor, there may be better options.
+The bubble sort algorithm’s average/worst time complexity is O(n²), as we have to pass through the array as many times
+as there are pairs in a provided array. Therefore, when time is a factor, there may be better options.
 
 2. Insertion Sort
 †he worst-case (and average-case) complexity of the insertion sort algorithm is O(n²)
 
 3. Selection Sort
-The selection sort algorithm is made up of two nested loops. It has an O (n2) time complexity due to the two nested loops.
+The selection sort algorithm is made up of two nested loops. It has an O (n2) time complexity
+due to the two nested loops.
 
 4. Merge Sort
-Merge sort is a recursive algorithm that continuously splits the array in half until it cannot be further divided i.e., the array has only one element left (an array with one element is always sorted). Then the sorted subarrays are merged into one sorted array.
+Merge sort is a recursive algorithm that continuously splits the array in half until it cannot be further divided i.e.,
+ the array has only one element left (an array with one element is always sorted).
+ Then the sorted subarrays are merged into one sorted array.
+
+
+Which sort is the best?
+
+1. Insertion Sort should be used with only a few items, if the input is small or items are mostly sorted
+ it will be very fast.
+
+2. Bubble sort is only used for educational purposes , it's not very efficient
+
+3. Selection sort is for teaching mechanism.
+
+4. Merge Sort is really good because of divide and conquer. It's fast. But for space complexity
+ it's gonna be really expensive.
+
+5. Quick sort It's probably one of the most popular sorting algorithms, but the one downside
+ is this worst case if you don't pick the pivot properly, you could have a really, really slow sorting.
+
+

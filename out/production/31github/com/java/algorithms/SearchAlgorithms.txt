@@ -1,0 +1,7 @@
+1. Linear Search
+
+2. Binary Search
+
+3. Bradth First Search(BFS)
+
+4. Depth First Search(DFS)
